@@ -2,9 +2,17 @@ These are my notes for the Linux class.
 
 
 
-The rm command is to remove
-The mkdir command is to create a new directory
-The useradd command is used to create a new user account on the system
+The "rm" command is to remove
+The "mkdir" command is to create a new directory
+The "useradd" command is used to create a new user account on the system
 
 
-~
+=
+
+
+The userdel command is used to delete a user account on the system.
+
+If we want to see all of the user accounts that are configured on the system, we can read the /etc/passwd file using the command "cat /etc/passwd". 
+
+
+Today is September 12, 2023!!
