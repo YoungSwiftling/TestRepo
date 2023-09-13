@@ -1,0 +1,87 @@
+<mxfile host="app.diagrams.net" modified="2023-09-13T18:21:52.961Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0" etag="-DIrlcUHdVK1SbkZHfvO" version="21.7.2" type="github">
+  <diagram name="Page-1" id="EGawqVXien_poys0bBTz">
+    <mxGraphModel dx="1596" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="Vhh1cMOaEA72a_BILJCU-1" target="Vhh1cMOaEA72a_BILJCU-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-21" value="Joined to Domain" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vhh1cMOaEA72a_BILJCU-20" vertex="1" connectable="0">
+          <mxGeometry x="0.1073" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Key Server&lt;/font&gt;&lt;/b&gt;" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.encryption_key;" parent="1" vertex="1">
+          <mxGeometry x="540" y="180" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-2" value="Nagios Server" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.linux_server;" parent="1" vertex="1">
+          <mxGeometry x="70" y="120" width="170" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-3" value="Splunk SErver" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.linux_server;" parent="1" vertex="1">
+          <mxGeometry x="110" y="530" width="170" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-4" value="Ansible Server" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#005F4B;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam2.linux_server;" parent="1" vertex="1">
+          <mxGeometry x="410" y="530" width="170" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.038;entryY=0.34;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vhh1cMOaEA72a_BILJCU-9" target="Vhh1cMOaEA72a_BILJCU-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-25" value="Nagios Server" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vhh1cMOaEA72a_BILJCU-16" vertex="1" connectable="0">
+          <mxGeometry x="0.3584" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.64;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vhh1cMOaEA72a_BILJCU-9" target="Vhh1cMOaEA72a_BILJCU-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="250" />
+              <mxPoint x="460" y="320" />
+              <mxPoint x="360" y="320" />
+              <mxPoint x="360" y="310" />
+              <mxPoint x="257" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-24" value="Splunk Server" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vhh1cMOaEA72a_BILJCU-17" vertex="1" connectable="0">
+          <mxGeometry x="0.0271" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.038;entryY=0.42;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="Vhh1cMOaEA72a_BILJCU-9" target="Vhh1cMOaEA72a_BILJCU-15" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="225" />
+              <mxPoint x="520" y="400" />
+              <mxPoint x="470" y="400" />
+              <mxPoint x="470" y="661" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-22" value="Ansible SErver" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="Vhh1cMOaEA72a_BILJCU-18" vertex="1" connectable="0">
+          <mxGeometry x="0.3149" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-9" value="Private Key" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Key.svg;" parent="1" vertex="1">
+          <mxGeometry x="570" y="200" width="31" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-10" value="Public Key" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="1" vertex="1">
+          <mxGeometry x="570" y="290" width="26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-13" value="Public Key" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="1" vertex="1">
+          <mxGeometry x="210" y="170" width="26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-14" value="Public Key" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="1" vertex="1">
+          <mxGeometry x="240" y="540" width="26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-15" value="Public Key" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.key_permissions" parent="1" vertex="1">
+          <mxGeometry x="450" y="640" width="26" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Vhh1cMOaEA72a_BILJCU-19" value="Domain Controller" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server_2.svg;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="180" width="176" height="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
